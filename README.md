@@ -1,17 +1,16 @@
 # 🧠 AI-Powered Notes Summarizer
 
-Summarize large chunks of text or notes using state-of-the-art NLP models from HuggingFace (BART/Transformers). Useful for students, researchers, and professionals.
+This is a simple NLP project using HuggingFace Transformers to summarize large notes or paragraphs. Perfect for students, professionals, or researchers.
 
 ## 🚀 Features
 
-- Accepts .txt file or direct text input
-- Generates clean summaries using BART
-- CLI and optional Streamlit interface
-- Easily deployable to Streamlit Cloud
+- ✅ Summarize `.txt` notes
+- ✅ Use BART transformer for high-quality results
+- ✅ CLI + Optional Streamlit UI
 
-## 🖥️ How to Run
+## 📂 Usage
 
-Install requirements:
+### CLI
 
 ```bash
-pip install -r requirements.txt
+python main.py --file sample_notes/note1.txt
